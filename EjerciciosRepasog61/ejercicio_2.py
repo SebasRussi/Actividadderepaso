@@ -1,5 +1,9 @@
-def calcular_area(radio):
-    area_circulo = 3.14 * (radio**2)
-    print(area_circulo)
+import math
 
-circulo1 = calcular_area(5)
+
+def area_circulo(radio):
+    area = math.pi * (radio**2)
+    return area
+
+
+print(area_circulo(5))
